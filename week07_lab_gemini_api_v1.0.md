@@ -461,9 +461,9 @@ flutter run
 
 > ✅ **Checkpoint 0.1** ถ่ายภาพหน้าจอ 2 ภาพ คือ (ก) หน้า Home ที่แสดงรายการสินค้าจริงจาก API และ (ข) หน้า Checkout ที่มีสินค้าที่เพิ่มไว้ เป็นหลักฐานว่าโปรเจกต์ตั้งต้นถูกต้องสมบูรณ์ก่อนเริ่มทำเนื้อหา Gemini API ต่อ
 
-```text
-บันทึกรูปผลลัพธ์ที่นี่
-```
+<img width="500" alt="c1 1 (1)" src="https://github.com/user-attachments/assets/395e92dd-d8f3-4808-b05e-6ec7498807ef" />
+<img width="500" alt="c1 1 (2)" src="https://github.com/user-attachments/assets/fef00c97-183f-4b1b-aee3-2b9e272745ed" />
+
 
 > ⚠️ ถ้าหน้าจอ Home แสดง Error เช่น "ไม่สามารถโหลดรายการสินค้าได้ (สถานะ 523)" ไม่ใช่ปัญหาจากไฟล์ที่คัดลอกมา แต่เป็น Fake Store API (fakestoreapi.com) ล่มชั่วคราว (Error ของ Cloudflare ที่แปลว่าเซิร์ฟเวอร์ต้นทางเข้าไม่ถึง) ให้รอแล้วลองใหม่ หรือแจ้งอาจารย์/TA เพื่อขอไฟล์ `ItemRepositoryMock` สำรองไว้ทดสอบโดยไม่ง้อเครือข่าย
 
@@ -494,9 +494,11 @@ flutter run
 
 > ✅ **Checkpoint 1.1** ถ่ายภาพหน้าจอ Google AI Studio ที่แสดงรูปภาพที่แนบ Prompt ที่ใช้ และผลลัพธ์ JSON ที่ได้ จากนั้นทดลองรันซ้ำอีก 2 ครั้งด้วยภาพและ Prompt เดิม
 
-```text
-บันทึกรูปผลลัพธ์ที่นี่
-```
+<img width="500" alt="c1 1 (1)" src="https://github.com/user-attachments/assets/e0b9112d-99c3-4574-a99e-627d33b17c55" />
+<img width="500" alt="c1 1 (2)" src="https://github.com/user-attachments/assets/1f5d2bda-1b86-4770-9f3c-04090aabb88c" />
+<img width="500" alt="c1 1 (3)" src="https://github.com/user-attachments/assets/611bd777-bb4c-4f9b-a2c0-1f49e1130973" />
+<img width="500" alt="c1 1 (4)" src="https://github.com/user-attachments/assets/35ca7220-0304-47b8-8e73-6e8d288691bd" />
+
 
 ### ขั้นตอนที่ 1.2: ทดลองเปิดใช้ Structured Output ใน AI Studio
 
@@ -505,8 +507,10 @@ flutter run
 > ✅ **Checkpoint 1.2** ถ่ายภาพหน้าจอที่แสดงการตั้งค่า Structured Output และผลลัพธ์ที่ได้ อธิบายว่าผลลัพธ์ที่ได้ต่างจากตอนไม่เปิด Structured Output ในขั้นตอน 1.1 อย่างไร (อ้างอิงบทหนังสือเรียนหัวข้อ 7.4)
 
 ```text
-บันทึกผลลัพธ์ที่นี่
+ระบบบังคับให้ตอบเป็นรูปแบบ JSON เป๊ะๆ 100% ไม่มีข้อความแปลกปลอมปนมา นำไปเขียนโค้ดต่อได้ทันทีอย่างปลอดภัย
 ```
+<img width="500" alt="c1 2" src="https://github.com/user-attachments/assets/0bd008f5-bfc2-48bd-b83e-5933d6f98a48" />
+
 
 ---
 
